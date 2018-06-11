@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+
+
+{% block body %}
+
+    {% for news in news %}
+        <p>{{ news.title }}</p>
+   {% endfor %}
+
+{% endblock %}
